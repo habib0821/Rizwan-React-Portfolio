@@ -126,9 +126,6 @@ const ProjectCards = ({project,setOpenModal}) => {
     return (
         <Card onClick={() => setOpenModal({state: true, project: project})}>
             <Image src={project.image}/>
-            <Details>
-                <Title>{project.title}</Title>
-            </Details>
             <Members>
                 {project.member?.map((member) => (
                     <Avatar src={member.img}/>

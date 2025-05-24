@@ -116,7 +116,7 @@ export const Title = styled.div`
   font-weight: 700;
   font-size: 50px;
   color: ${({ theme }) => theme.text_primary};
-  line-height: 68px;
+  line-height: 50px;
   @media (max-width: 960px) {
     text-align: center;
   }

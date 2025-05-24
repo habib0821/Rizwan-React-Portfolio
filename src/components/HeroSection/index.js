@@ -16,7 +16,7 @@ const HeroSection = () => {
                     <HeroLeftContainer id="Left">
                         <Title>Hi, I am <br /> {Bio.name}</Title>
                         <TextLoop>
-                            I am a
+                            and I am a
                             <Span>
                                 <Typewriter
                                     options={{
@@ -28,7 +28,7 @@ const HeroSection = () => {
                             </Span>
                         </TextLoop>
                         <SubTitle>{Bio.description}</SubTitle>
-                        <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
+                        <ResumeButton href="https://wa.me/03321952851" target='display'>Contact Via Whatsapp</ResumeButton>
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">

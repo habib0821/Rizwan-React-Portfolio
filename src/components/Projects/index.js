@@ -30,6 +30,11 @@ const Projects = ({openModal,setOpenModal}) => {
             :
             <ToggleButton value="poster" onClick={() => setToggle('poster')}>Poster</ToggleButton>
           }
+          {toggle === 'card' ?
+            <ToggleButton active value="card" onClick={() => setToggle('card')}>Card</ToggleButton>
+            :
+            <ToggleButton value="card" onClick={() => setToggle('card')}>Card</ToggleButton>
+          }
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all' && projects

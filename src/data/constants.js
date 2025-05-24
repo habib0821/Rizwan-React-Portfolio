@@ -2,19 +2,20 @@ export const Bio = {
   name: "Rizwan Nadeem",
   roles: [
     "Graphic Designer",
-    "Poster Designer",
     "UI/UX Designer",
-    "Thumbnail Designer",
+    "Visual Content Creator",
+    "Infographic Designer",
+    "Figma UI Prototyper",
+    "Canva Expert",
+    "Portfolio Perfectionist",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/rishavchanda",
+    "I’m a passionate and creative Graphic Designer with a strong eye for detail and aesthetics. With experience in branding, social media designs, and thumbnails, I strive to create visuals that communicate clearly and professionally. I enjoy turning ideas into eye-catching designs that leave a lasting impact.",
   resume:
     "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  twitter: "https://twitter.com/RishavChanda",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+  linkedin: "https://www.linkedin.com/in/muhammad-rizwan-nedeem-503100322/",
+  insta: "https://www.instagram.com/itsrizwanfaridi007/",
+  facebook: "https://www.facebook.com/profile.php?id=61572962441549",
 };
 
 export const skills = [
@@ -24,18 +25,33 @@ export const skills = [
       {
         name: "Adobe Photoshop",
         image:
-          "https://images.seeklogo.com/logo-png/28/2/adobe-photoshop-cc-circle-logo-png_seeklogo-282949.png",
+          "/psd.jpg",
       },
       {
         name: "Adobe Illustrator",
         image:
-          "https://cdn.iconscout.com/icon/free/png-256/free-adobe-illustrator-logo-icon-download-in-svg-png-gif-file-formats--brand-pack-business-icons-7581618.png",
+          "/ai.jpg",
       },
       {
         name: "Figma",
         image:
-          "https://logos-world.net/wp-content/uploads/2024/10/Figma-Logo-New.png",
-      }
+          "figma.jpg",
+      },
+      {
+        name: "Canva",
+        image:
+          "canva.jpg",
+      },
+      {
+        name: "Capcut",
+        image:
+          "capcut.jpg",
+      },
+      {
+        name: "After Effect",
+        image:
+          "ae.jpg",
+      },
     ],
   }
 ];
@@ -43,32 +59,30 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBBqhYHhYO5ju6yg9_QOKF1ciTivsqOV6XxQ&s",
-    role: "Graphic Designer",
-    company: "ZETTARUGS",
-    date: "Aug 2024 - July 2024",
-    desc: "Working on social media posts, Thumbnail designing and ads poster designing",
-    skills: [
-      "Photoshop",
-      "Illustrator",
-      "figma",
-    ],
-    doc: "https://cdn-ilcijib.nitrocdn.com/JZxAIeWXjbPitkYOLwVbzCvFkbBNKvbX/assets/images/optimized/rev-ba27ccf/zettarugs.com/wp-content/uploads/2024/09/Modern-Gabbah-2048x1638.jpg",
-  },
-  {
-    id: 0,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSul6-qre1z_1YxzMdeWR00E_5UuCZcwlSj_g&s",
     role: "Graphic Designer",
     company: "BABAAZ TRAVELS",
-    date: "Aug 2024 - July 2025",
-    desc: "Working on social media posts, Thumbnail designing and ads poster designing",
+    date: "Duration: Ongoing",
+    desc: "Currently working as a graphic designer, where I create engaging visual content for the company’s social media platforms and marketing campaigns. My role includes designing promotional posts, thumbnails, travel banners, and ad creatives that reflect the brand’s identity and attract potential customers.",
     skills: [
       "Photoshop",
       "Illustrator",
-      "figma",
+      "Capcut",
     ],
     doc: "https://www.babaaztravels.com/wp-content/uploads/2022/05/ABOUTUS.jpg",
-  }
+  },
+  {
+    id: 0,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBBqhYHhYO5ju6yg9_QOKF1ciTivsqOV6XxQ&s",
+    role: "Graphic Designer",
+    company: "ZETTARUGS",
+    date: "Duration: 6 Months",
+    desc: "I was responsible for handling all graphic design tasks, including creating visually appealing promotional materials. A major part of my work involved using Adobe Photoshop to realistically place carpets into images while ensuring a clean, professional look by avoiding any visual overlaps with surrounding objects.",
+    skills: [
+      "Photoshop",
+    ],
+    doc: "https://cdn-ilcijib.nitrocdn.com/JZxAIeWXjbPitkYOLwVbzCvFkbBNKvbX/assets/images/optimized/rev-ba27ccf/zettarugs.com/wp-content/uploads/2024/09/Modern-Gabbah-2048x1638.jpg",
+  },
   
 ];
 
@@ -76,70 +90,145 @@ export const education = [
   {
     id: 0,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-    school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-    date: "Oct 2021 - Sep 2025",
-    grade: "8.71 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
-  }
+    school: "(Self-paced, Online)",
+    date: "Ongoing",
+    desc: "Currently enrolled in a self-paced associate-level graphic design program that focuses on advanced design principles, user interface design, and branding strategies. This course is helping me grow my design thinking and creative problem-solving abilities for professional-level projects.",
+    degree: "Associate Degree in Graphic Design",
+  },
+  {
+    id: 1,
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+    school: "DigiSkills.pk (Online Certification)",
+    date: "Completed: 2023",
+    desc: "Completed an online graphic design course that introduced me to the fundamentals of visual communication, color theory, typography, and branding. I worked on several practice projects using Adobe Photoshop, Illustrator, and Figma, which allowed me to apply these concepts practically.",
+    degree: "Diploma in Graphic Design",
+  },
+  {
+    id: 2,
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+    school: "Superior College, Paak Patan",
+    date: "Completed: 2022",
+    desc: "Studied major science subjects including Mathematics, Physics, and Chemistry. This phase refined my analytical and technical skills. Though I pursued engineering, I also began to discover my passion for design during this time.",
+    degree: "FSc Pre-Engineering",
+  },
+  {
+    id: 3,
+    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+    school: "Govt. High School",
+    date: "Completed: 2020",
+    desc: "I completed my matriculation in science subjects, where I developed a strong base in logical thinking, observation, and problem-solving. These early academic years helped build the foundation for my interest in design and creativity.",
+    degree: "Matriculation",
+  },
 ];
 
 export const projects = [
   {
     id: 0,
-    title: "Elegant Thumbnail",
     image:
       "/images/thumbnail (1).jpeg",
     category: "thumbnail",
   },
   {
     id: 0,
-    title: "Elegant Thumbnail",
     image:
       "/images/thumbnail (2).jpeg",
     category: "thumbnail",
   },
   {
     id: 0,
-    title: "Elegant Thumbnail",
     image:
       "/images/thumbnail (3).jpeg",
     category: "thumbnail",
   },
   {
     id: 0,
-    title: "Elegant Thumbnail",
     image:
       "/images/thumbnail (4).jpeg",
     category: "thumbnail",
   },
   {
     id: 0,
-    title: "Elegant Thumbnail",
     image:
       "/images/thumbnail (5).jpeg",
     category: "thumbnail",
   },
   {
     id: 0,
-    title: "Elegant Thumbnail",
+    image:
+      "/images/thumbnail (6).jpeg",
+    category: "thumbnail",
+  },
+  {
+    id: 0,
+    image:
+      "/images/thumbnail (7).jpeg",
+    category: "thumbnail",
+  },
+  {
+    id: 0,
+    image:
+      "/images/thumbnail (8).jpeg",
+    category: "thumbnail",
+  },
+  {
+    id: 0,
     image:
       "/images/poster (1).jpeg",
     category: "poster",
   },
   {
     id: 0,
-    title: "Elegant Thumbnail",
     image:
       "/images/poster (2).jpeg",
     category: "poster",
   },
   {
     id: 0,
-    title: "Elegant Thumbnail",
     image:
       "/images/poster (3).jpeg",
     category: "poster",
+  },
+  {
+    id: 0,
+    image:
+      "/images/poster (4).jpeg",
+    category: "poster",
+  },
+  {
+    id: 0,
+    image:
+      "/images/poster (5).jpeg",
+    category: "poster",
+  },
+  {
+    id: 0,
+    image:
+      "/images/poster (6).jpeg",
+    category: "poster",
+  },
+  {
+    id: 0,
+    image:
+      "/images/poster (7).jpeg",
+    category: "poster",
+  },
+  {
+    id: 0,
+    image:
+      "/images/poster (8).jpeg",
+    category: "poster",
+  },
+  {
+    id: 0,
+    image:
+      "/images/card (1).jpeg",
+    category: "card",
+  },
+  {
+    id: 0,
+    image:
+      "/images/card (2).jpeg",
+    category: "card",
   },
 ];
 

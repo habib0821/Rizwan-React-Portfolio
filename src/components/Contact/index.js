@@ -143,45 +143,26 @@ const Contact = () => {
 
   return (
     <Container>
-  <Wrapper>
-    <Title>Contact</Title>
-    <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
-
-    <ContactForm 
-      name="contact"
-      method="POST"
-      data-netlify="true"
-      data-netlify-honeypot="bot-field"
-      onSubmit={(e) => {
-        e.preventDefault();
-        setOpen(true);
-        e.target.reset();
-      }}
-    >
-      {/* Required hidden inputs for Netlify */}
-      <input type="hidden" name="form-name" value="contact" />
-      <input type="hidden" name="bot-field" />
-
-      <ContactTitle>Email Me 🚀</ContactTitle>
-
-      <ContactInput placeholder="Your Email" name="from_email" required />
-      <ContactInput placeholder="Your Name" name="from_name" required />
-      <ContactInput placeholder="Subject" name="subject" required />
-      <ContactInputMessage placeholder="Message" rows="4" name="message" required />
-
-      <ContactButton type="submit">Send</ContactButton>
-    </ContactForm>
-
-    <Snackbar
-      open={open}
-      autoHideDuration={6000}
-      onClose={() => setOpen(false)}
-      message="Message sent successfully!"
-      severity="success"
-    />
-  </Wrapper>
-</Container>
-
+      <Wrapper>
+        <Title>Contact</Title>
+        <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
+        <ContactForm ref={form} onSubmit={handleSubmit}>
+          <ContactTitle>Email Me 🚀</ContactTitle>
+          <ContactInput placeholder="Your Email" name="from_email" />
+          <ContactInput placeholder="Your Name" name="from_name" />
+          <ContactInput placeholder="Subject" name="subject" />
+          <ContactInputMessage placeholder="Message" rows="4" name="message" />
+          <ContactButton type="submit" value="Send" />
+        </ContactForm>
+        <Snackbar
+          open={open}
+          autoHideDuration={6000}
+          onClose={()=>setOpen(false)}
+          message="Email sent successfully!"
+          severity="success"
+        />
+      </Wrapper>
+    </Container>
   )
 }
 

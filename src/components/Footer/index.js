@@ -102,7 +102,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2025 FridiGraphics. All rights reserved.
+          &copy; 2025 FaridiGraphics. All rights reserved.
         </Copyright>
 
       </FooterWrapper>

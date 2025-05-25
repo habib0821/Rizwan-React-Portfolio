@@ -3,7 +3,6 @@ export const Bio = {
   roles: [
     "Graphic Designer",
     "UI/UX Designer",
-    "Visual Content Creator",
     "Infographic Designer",
     "Figma UI Prototyper",
     "Canva Expert",

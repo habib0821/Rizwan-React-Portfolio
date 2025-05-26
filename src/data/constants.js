@@ -88,7 +88,7 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+    img: "education.png",
     school: "(Self-paced, Online)",
     date: "Ongoing",
     desc: "Currently enrolled in a self-paced associate-level graphic design program that focuses on advanced design principles, user interface design, and branding strategies. This course is helping me grow my design thinking and creative problem-solving abilities for professional-level projects.",
@@ -96,7 +96,7 @@ export const education = [
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+    img: "education.png",
     school: "DigiSkills.pk (Online Certification)",
     date: "Completed: 2023",
     desc: "Completed an online graphic design course that introduced me to the fundamentals of visual communication, color theory, typography, and branding. I worked on several practice projects using Adobe Photoshop, Illustrator, and Figma, which allowed me to apply these concepts practically.",
@@ -104,7 +104,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+    img: "education.png",
     school: "Superior College, Paak Patan",
     date: "Completed: 2022",
     desc: "Studied major science subjects including Mathematics, Physics, and Chemistry. This phase refined my analytical and technical skills. Though I pursued engineering, I also began to discover my passion for design during this time.",
@@ -112,7 +112,7 @@ export const education = [
   },
   {
     id: 3,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
+    img: "education.png",
     school: "Govt. High School",
     date: "Completed: 2020",
     desc: "I completed my matriculation in science subjects, where I developed a strong base in logical thinking, observation, and problem-solving. These early academic years helped build the foundation for my interest in design and creativity.",
